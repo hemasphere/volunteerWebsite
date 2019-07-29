@@ -1,0 +1,35 @@
+html{
+  background-color: lavender;
+  margin: 100px
+  font-family: 'Amaranth';font-size: 22px;
+}
+
+h4{
+  font-family: 'Archivo Black';
+  font-size: 75px;
+  text-align: center;
+  font-style: bold;
+  
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
+}
+
+
+
+.collapsible{
+  border:none;
+}
+
+sye{
+  color: black;
+}
+#share{
+  color: black !important;
+}
+
+.carousel{
+  width:200 px;
+}
