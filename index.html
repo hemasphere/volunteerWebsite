@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="style.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>  
+  
+  <body>
+    
+    <h1>   <img id="plant" src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fplant.png?v=1562858573951" 
+                height="90"> Volunteer NYC!</h1>
+     <ul>
+       <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo"> </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li> <a class="waves-effect waves-light btn modal-trigger" href="#modal1">About us</a></li>
+        <li> <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Contact</a></li>
+        <li> <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Upcoming Events!</a></li>
+        <li> <a class="waves-effect waves-light btn modal-trigger" href="#modal4">Your account</a></li>
+        <li> <a class="waves-effect waves-light btn modal-trigger" href="blog.html">Blog</a></li>
+      </ul>
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>About Us</h4>
+        <p>My name is Hema, I'm 17 years old and I'm going to be a freshman at Queens College! I went to Forest Hills high 
+        school and I was in the law program for two year. I was part of the mock trial team and we got invited to International Mock
+        Trial because of how well we did and was ranked #4 out of 400 in the entire State. I am very interested in computer science, 
+        and plan on majoring in it. I have taken a java class before and created a Marvel game. Next week I start with my google
+        program and I'm very excited to start it. This week at WiTNY was amazing and I'm so grateful to be apart of it.</p>
+        <p>  Hello! I'm Sony, 18, a Sophomore at Hunter College. I enjoy being active and petting dogs. 
+          I also enjoy reading and playing card games.
+          WiTNY helped me discover my passion for computer science. I had minimal experience with coding and HTML 
+          which WiTNY helped expand. Now I know a little bit of Javascript and CSS! I will miss the people and energy that 
+          comes with this program. THank you everyone. It was amazing. 
+          I love to volunteer which is why this idea was so important to me. 
+          I hope you guys find this website helpful! 
+        </p>
+        <p>
+          My name is Tahamina. I'm 19 years old and currently a rising sophomore at Hunter College. 
+          I'm planning on majoring in the computer science field.
+          I was a part of the Global Kids program where I helped created a geo-locative game where I had experienced coding for the first time. 
+          I took CSCI 127 at Hunter during Spring 2019 where I learned Python and touched base with C++. 
+          My first and most interest was always to help people which is why I helped start this website. 
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">close</a>
+      </div>
+    </div>
+      
+      <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h4>Contact</h4>
+        <p> If you have any questions for us, please email us at WeAreEmpowering@yourock.com and we will get back to you 
+        as soon as possible. Thank you for making a change in someone's life! You are amazing!</p>
+        <p>
+          We also include daily updates on our twitter and instagram @volunteernyc </p>
+          <p><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Ftwitter.jfif?v=1562941972522">
+          <img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Finstagram.jfif?v=1562942045393">
+        </p>
+        <p>
+          Sony can be found at @o.nys </p>
+        <p>
+          Hema can be found at @hemaaa.01
+        </p>
+        <p>
+          Tahmina can be fount at @angel_mimi4
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">close</a>
+      </div>
+    </div>
+      
+      <div id="modal3" class="modal">
+      <div class="modal-content">
+        <h4>Upcoming Events!</h4>
+        <p>July 8th: Find out more about compost and recycling in your neighborhood gardens!
+          Check them out with the link below. Be sure to sign up and come! </p>
+        <p>July 14th: Go to Sunrise to enjoy the company of senior citizens!!</p>
+        
+        <p>
+          July 24th: Go to Brookyln Bridge for the Coastal Cleanup and recycle the plastics you've found! 
+          
+        </p>
+        
+        <p>
+       August 11: Dog shelter is having a playing session for the neighboords near you.
+          Please volunteer for the pup care, as well as bring any goodies, used or not for the inhouse pups. 
+        </p>
+        <p>
+      August 25th: Meet at Microsoft Center for our monthly reports and let's see how everyone is doing!
+        Venue: Bring a dish from your culture and let's have a potluck to celebrate!
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">close</a>
+      </div>
+    </div>
+      <div id="modal4" class="modal">
+      <div class="modal-content">
+        <h4>Registration</h4>
+        <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="disabled" type="text" class="validate">
+          <label for="disabled">Area of interest?</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+    </form>
+  </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+      </div>
+    </div>
+      
+  
+         </div>
+         
+         
+      </nav>
+    </ul>
+       
+    <p>
+       
+    </p>
+    
+    <div class="row">
+      <div class="col s12">
+      <div class="col s6">
+         <ul class="collapsible">
+          <div class="card blue lighten-3">
+          <div class="card-content black-text">
+            <p class="card-title" style = "font-weight: 900; font-size: 30px"> Nature</p>
+            <p >Here you can volunteer to help us clean up the parks and our ocean. You can help us make our environment a better place! 
+        You can either chose to pick up trash at the beach or at the park.</p>
+            </div>
+           </div>
+           <div>
+           </div>
+    <li>
+
+<!--       nature -->
+      <div class="collapsible-header"><i class="material-icons">filter_vintage</i>Brookyln Bridge</div>
+      <div class="collapsible-body"><span>
+        Here you can help out in the Coastal Cleanup at the Brookyln Bridge! It's a great opportunity to give back to the community
+        and help clean out the waters in our area. You can clean up the toxins and wastes and help us get clean water once again 
+        and grow out ecosystem once more. 
+        Click <a href = "https://www.brooklynbridgepark.org/events/coastal-cleanup">here </a> for more information!
+        </span></div>
+    </li>
+    
+    <li>
+      <div class="collapsible-header"><i class="material-icons">filter_vintage</i>NYC Parks</div>
+      <div class="collapsible-body"><span>
+        Here you can help out in NYC parks to voulnteer! There are many different events here that you can sign up for and they don't all
+        deal with parks, some are beaches and lakes. Here you can clean up our dirty parks and give the ecosysem one more chance to grow
+        back again! This is your chance to give back to the environment!
+        Click <a href = "https://www.nycgovparks.org/events/volunteer">here </a> for more information!
+
+        </span></div>
+    </li>
+    
+           <li>
+      <div class="collapsible-header"><i class="material-icons">filter_vintage</i>Rockaway Beach</div>
+      <div class="collapsible-body"><span>
+       Here you can help out in Rockaway and volunteer to help clean up the beach! whether it’s testing the water quality in Rockaway, 
+        rallying against plastics, tabling at an event, or cleaning up the beach we always have a good time.
+        Click <a href = "https://nyc.surfrider.org/volunteer-with-us/"> here </a> for more information!
+        </span></div>
+    </li>
+   
+    <li>
+            <div class="collapsible-header"><i class="material-icons">filter_vintage</i>Hudson River Park</div>
+      <div class="collapsible-body"><span>
+        Here you can help out at the Hudson River Park where you could help out in the parks whether it's growing new plants 
+        or cleaning up! 
+        Click <a href = "https://hudsonriverpark.org/support-the-park/volunteer"> here </a> for more information!
+        </span></div>
+    </li>
+    
+  </ul>
+        </div>
+      <div class="col s6">
+        <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fbeach%201-2.jpg?v=1562851232907"></a>
+    <a class="carousel-item" href="#two!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fpark%201-2.jpg?v=1562851110289"></a>
+    <a class="carousel-item" href="#three!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fbridge%201-2.jpg?v=1562851809032"></a>
+    <a class="carousel-item" href="#four!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fhudson%20river%201-2.jpg?v=1562853139486"></a>
+    <a class="carousel-item" href="#five!"><img src="https://media.giphy.com/media/iaktyrUiG659e/giphy.gif"></a>
+  </div>
+        </div>
+    </div>
+  </div>
+
+    <!--education-->
+    <div class="row">
+      <div class="col s12">
+        <div class="col s6">
+          <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fdonating%20books%201-2.jpg?v=1562853821661"></a>
+    <a class="carousel-item" href="#two!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Ftutoring%201-2.jpg?v=1562854016167"></a>
+    <a class="carousel-item" href="#three!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fmusic%201.jpg?v=1562854080529"></a>
+    <a class="carousel-item" href="#four!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fhelping%201.jpg?v=1562855087249"></a>
+    <a class="carousel-item" href="#five!"><img src="https://media.giphy.com/media/gZPF8OVrsszE4/giphy.gif"></a>
+  </div>
+        </div>
+      <div class="col s6">
+         <ul class="collapsible">
+           <div class="card red lighten-2">
+          <div class="card-content black-text">
+          <p class="card-title" style = "font-weight: 900; font-size: 35px"> Education </p>
+          <p>Here you can donate any kind of school supplies you have and you can even volunteer to tutor students. 
+            You can also donate money to schools so they can either build a new school or buy supplies for the new students.</p>
+          </div>
+           </div>
+    <li>
+      
+      <div class="collapsible-header"><i class="material-icons">school</i>Timeout</div>
+      <div class="collapsible-body"><span>
+        Here you can donate any bookbags or school supplies you have!
+        Click <a href = "https://www.timeout.com/new-york-kids/things-to-do/best-back-to-school-supply-drives-and-backpack-drives"> here </a> for more information! 
+        </span></div>
+    </li>
+           
+           <li>
+      
+      <div class="collapsible-header"><i class="material-icons">school</i>Donar schoose</div>
+      <div class="collapsible-body"><span>
+        Here you can donate money to build new schools or supplies for those in need! 
+        Click <a href = "https://www.donorschoose.org/"> here </a> here for more information!
+        </span></div>
+    </li>
+           
+           <li>
+      
+      <div class="collapsible-header"><i class="material-icons">school</i>School on Wheels</div>
+      <div class="collapsible-body"><span>
+        Here you can volunteer to tutor students and help them make their life a little easier. You can also mentor them 
+        and be like a role model to them.
+        Click <a href = "https://schoolonwheels.org/volunteer/"> here </a>for more information!    
+        </span></div>
+    </li>
+           
+           <li>
+      
+      <div class="collapsible-header"><i class="material-icons">school</i>NYC service</div>
+      <div class="collapsible-body"><span>    
+        Here you can volunteer at a public school, you can either be a cafeterain lunch man/lady, a nurse assisatnce, a teacher 
+        assistance etc.
+        Click <a href = "https://www.nycservice.org/opportunities/4904">here </a>for more information!
+        </span></div>
+    </li>
+    </ul>
+        </div>
+    </div>
+  </div>
+    
+    <!--animals-->
+    <div class="row">
+      <div class="col s12">
+      <div class="col s6">
+         <ul class="collapsible">
+           <div class="card orange">
+          <div class="card-content black-text">
+            <p class="card-title" style = "font-weight: 900; font-size: 30px">Animals</p>
+            <p>Here you can volunteer to take care of some animals, as in bathe them, clean them, look after them, feed them or even play with them! 
+        You can also choose to adopt a pet if you would like to. </p>
+          </div>
+           </div>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">wb_sunny</i>NYCACC</div>
+      <div class="collapsible-body"><span>
+        Here you can either donate, adopt or get involved and participate in an animal shelter! 
+        Click <a href = "https://www.nycacc.org/"> here </a>for more information
+        </span></div>
+    </li>
+           
+            <li>
+      <div class="collapsible-header"><i class="material-icons">wb_sunny</i>Best Friends</div>
+      <div class="collapsible-body"><span>
+        Here you can volunteer or foster a new best friend! You would make a pet very happy and give it a love
+        and warm home to go to.
+        Click <a href = "https://ny.bestfriends.org/get-involved/volunteer"> here </a> for more information!
+        </span></div>
+    </li>
+           
+            <li>
+      <div class="collapsible-header"><i class="material-icons">wb_sunny</i>Animal Haven</div>
+      <div class="collapsible-body"><span>
+        Here you can volunteer at Animal Haven! Over here they have a variety of options of where you want to volunteer 
+        and there's a perfect fit for everyone.
+        Click <a href = "https://www.animalhavenshelter.org/volunteer/"> here </a>for more information!
+        </span></div>
+    </li>
+           
+            <li>
+      <div class="collapsible-header"><i class="material-icons">wb_sunny</i>Bideawee</div>
+      <div class="collapsible-body"><span>
+        Here you can volunteer at Bidawee and help out these animals in need!
+        Click <a href = "https://www.bideawee.org/Volunteer">here </a>for more information!
+        </span></div>
+    </li>
+    
+  </ul>
+        </div>
+      <div class="col s6">
+        <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fvolunteer-442341%20(2).jpg?v=1562855805637"></a>
+    <a class="carousel-item" href="#two!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2FPet-Hotel%20(2).jpg?v=1562855932913"></a>
+    <a class="carousel-item" href="#three!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fmain_900%20(2).jpg?v=1562855389687"></a>
+    <a class="carousel-item" href="#four!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2F130524145944-01-animals-oklahoma-tornado-horizontal-large-gallery%20(2).jpg?v=1562855685081"></a>
+    <a class="carousel-item" href="#five!"><img src="https://media.giphy.com/media/Oc8lIQHZsXqDu/giphy.gif"></a>
+  </div>
+        </div>
+    </div>
+  </div>
+    
+<!--shelters-->
+    <div class="row">
+      <div class="col s12">
+        <div class="col s6">
+        <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2FFood-drive-website-pic-A%20(3).jpg?v=1562856101258"></a>
+    <a class="carousel-item" href="#two!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fvolunteering-photo%20(2).jpg?v=1562856201619"></a>
+    <a class="carousel-item" href="#three!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fhomeless%20shelter%20(2).jpg?v=1562857500251"></a>
+    <a class="carousel-item" href="#four!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Ff6e1e9e0-f091-4110-9c09-37ec7fc8aa2b%20(2).jpg?v=1562857641995"></a>
+    <a class="carousel-item" href="#five!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fgiphy%20(1).gif?v=1562855040762"></a>
+  </div>
+        </div>
+      <div class="col s6">
+         <ul class="collapsible">
+           <div class="card brown lighten-3">
+          <div class="card-content black-text">
+            <p class="card-title" style = "font-weight: 900; font-size: 30px">Shelters/Homeless</p>
+            <p>Here you can volunteer to help us organize food drives, donate money to buy the supplies, actually bring the supplies, cook etc. 
+        You can also donate clothes, utlities or money to help out. </p>
+          </div>
+           </div>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">home</i>6 square foot</div>
+      <div class="collapsible-body"><span>
+        Here you can volunteer at a homeless shelter! There's so much for you to do here! 
+        Click <a href = "https://www.6sqft.com/where-to-volunteer-in-nyc-homeless-shelters-food-banks-soup-kitchens-and-more/"> here </a>for more information!
+        </span></div>
+    </li>
+           
+           <li>
+      <div class="collapsible-header"><i class="material-icons">home</i>Coalition for the Homeless</div>
+      <div class="collapsible-body"><span>\
+        to take action in homeless shelters and help out! 
+        Click <a href = "https://www.coalitionforthehomeless.org/take-action/"> here </a>for more information!
+        </span></div>
+    </li>
+           
+           <li>
+      <div class="collapsible-header"><i class="material-icons">home</i>Bowery</div>
+      <div class="collapsible-body"><span>
+        to help feed the homeless! 
+        Click <a href = "https://www.bowery.org/"> here </a>for more information!
+        </span></div>
+    </li>
+           
+           <li>
+      <div class="collapsible-header"><i class="material-icons">home</i>End Homelessness</div>
+      <div class="collapsible-body"><span>
+        o donate money and help end homelessness!
+        Click <a href = "https://endhomelessness.org/help-end-homelessness/support-our-work/"> here </a>for more information!
+        </span></div>
+    </li>
+    
+  </ul>
+        </div>
+      
+    </div>
+  </div>
+    
+    <!--orphans-->
+    <div class="row">
+      <div class="col s12">
+      <div class="col s6">
+         <ul class="collapsible">
+           <div class="card yellow lighten-2">
+          <div class="card-content black-text">
+            <p class="card-title" style = "font-weight: 900; font-size: 30px">Orphans</p>
+            <p>Here you can volunteer to tutor some orphans since some can't afford to go to school. You can
+        also adopt them and make sure they have a warm loving family to come home to. </p>
+          </div>
+           </div>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">child_friendly</i>Childrens Village</div>
+      <div class="collapsible-body"><span>
+        Click <a href = "https://childrensvillage.org/take-action/volunteer/"> here </a> to volunteer and become orphans role models or tutors or donate!     
+        </span></div>
+    </li>
+           
+           <li>
+      <div class="collapsible-header"><i class="material-icons">child_friendly</i>Little Flower NY</div>
+      <div class="collapsible-body"><span>
+        Click <a href = "https://www.littleflowerny.org/get-involved/volunteer/"> here </a> to volunteer and mentor/tutors kids! 
+        </span></div>
+    </li>
+           
+           <li>
+      <div class="collapsible-header"><i class="material-icons">child_friendly</i>The Orphan Foundation</div>
+      <div class="collapsible-body"><span>
+        Click <a href = "https://www.theorphanfoundation.org/volunteering.htm"> here </a>to either donate, adopt or volunteer! 
+        </span></div>
+    </li>
+           
+           <li>
+      <div class="collapsible-header"><i class="material-icons">child_friendly</i>New York center for Children</div>
+      <div class="collapsible-body"><span>
+        Click <a href = "http://www.newyorkcenterforchildren.org/">here </a>to donate, sponsor or volunteer here to give back and help these children!
+        </span></div>
+    </li>
+    
+  </ul>
+        </div>
+      <div class="col s6">
+        <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Forphans%202.0.jfif?v=1562855646230"></a>
+    <a class="carousel-item" href="#two!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fadoption%201-2.jpg?v=1562857400407"></a>
+    <a class="carousel-item" href="#three!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fbabies%201.jpg?v=1562857735332"></a>
+    <a class="carousel-item" href="#four!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Forphans%201.jfif?v=1562855471734"></a>
+    <a class="carousel-item" href="#five!"><img src="https://media.giphy.com/media/JQXaJaHdd8bVau3oNR/giphy.gif"></a>
+  </div>
+        </div>
+    </div>
+  </div>
+    
+    <!--senior citizens-->
+    <div class="row">
+      <div class="col s12">
+        <div class="col s6">
+        <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fsenior%201-2.jpg?v=1562858023599"></a>
+    <a class="carousel-item" href="#two!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fsenior%20citizen%201-2.jpg?v=1562858439539"></a>
+    <a class="carousel-item" href="#three!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fhelping%202.0.jfif?v=1562858582850"></a>
+    <a class="carousel-item" href="#four!"><img src="https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fquote%20for%20senior%201-2.png?v=1562859661300"></a>
+    <a class="carousel-item" href="#five!"><img src="https://media.giphy.com/media/IFyK4yOL69bpe/giphy.gif"></a>
+  </div>
+        </div>
+      <div class="col s6">
+         <ul class="collapsible">
+           <div class="card purple lighten-3">
+          <div class="card-content black-text">
+            <p class="card-title" style = "font-weight: 900; font-size: 30px">Senior Citizens</p>
+            <p>Here you can volunteer to help us feed those in nursing homes or do activities with them like playing games. 
+        You could spend time with them and maybe learn a thing or two. </p>
+          </div>
+           </div>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">wb_sunny</i>JASA</div>
+      <div class="collapsible-body"><span>
+        Click <a href = "https://www.jasa.org/volunteer#.XSZ0iJNKiu4"> here </a>to volunteer and help out senior citizens and do activities with them! 
+        </span></div>
+    </li>
+           
+           <li>
+      <div class="collapsible-header"><i class="material-icons">wb_sunny</i>VNSNY</div>
+      <div class="collapsible-body"><span>
+        Click <a href = "https://www.vnsny.org/giving/volunteer/hospice-volunteer-opportunities/"> here </a>to volunteer and help serve patients and help out their families! 
+        </span></div>
+    </li>
+           
+           <li>
+      <div class="collapsible-header"><i class="material-icons">wb_sunny</i>Elder Helpers</div>
+      <div class="collapsible-body"><span>
+        Click <a href = "https://www.elderhelpers.org/">here </a>to volunteer with the elders, bring generations together or simply donate!
+        </span></div>
+    </li>
+           
+           <li>
+      <div class="collapsible-header"><i class="material-icons">wb_sunny</i>Sunrise Senior Living</div>
+      <div class="collapsible-body"><span>
+        Click <a href = "https://www.sunriseseniorliving.com/about/volunteer.aspx">here </a>to volunteer with the elderly at Sunrise senior living!
+        </span></div>
+    </li>
+    
+  </ul>
+        </div>
+      
+    </div>
+  </div>
+    
+
+   
+        
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+</html>
+
