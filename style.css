@@ -1,0 +1,103 @@
+/* CSS files add styling rules to your content */
+html{
+background: url("https://cdn.glitch.com/711f7875-9267-451e-8275-e1aa8ccb16bb%2Fgreenwaves.jpg?v=1562865851107") ;
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em; 
+}
+
+h1 {
+  letter-spacing: 3px;
+  text-shadow: 3px 2px black;
+  text-align: center; 
+  font-style: bold;
+  font-size: 90px;
+  color: 	white; 
+  font-family: 'Roboto', sans-serif;
+  background-color: #;
+  padding: 30px;
+}
+h4{
+  color: black;
+}
+
+
+.nav-wrapper {
+  margin: 20px;
+  height: 200px;
+}
+
+
+nav {
+    height: 100px;
+    line-height: 100px;
+    background-color:	#228b22;
+    margin-bottom: 50px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 100px;
+    line-height: 20px;
+    background-color: #;
+    margin-bottom: 200px;
+}
+
+nav .button-collapse i {
+    height: 100px;
+    line-height: 20px;
+    background-color: #;
+}
+
+nav .brand-logo { 
+    font-size: 1.6rem; 
+}
+
+
+p {
+  text-align: center;
+  color: black;
+  font-size:20px;
+}
+
+.collapsible-body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 18px;
+  background-color: lightblue;
+}
+.collapsible-header {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 20px;
+}
+
+.collapsible{
+  border:none;
+}
+
+#card-title{
+  font-size: 100px;
+}
+
+.modal {
+  height: 700px;
+}
+
+.card-title {
+   letter-spacing: 3px;
+  font-style: bold;
+}
+
+.modal {
+  line-height: 20px;
+  text-align: left;
+  font-size: 20px;
+  background-color: #ADD8E6;
+}
+
+not bad choices :D5C5C8 D8E2DC !!C1D7AE c7dbb6 BDE4A7 D5D887 CCE3DE BEEDA AED1E6
+text color: F4F1DE EFECCA D8A47F EDF0DA 
+
+
